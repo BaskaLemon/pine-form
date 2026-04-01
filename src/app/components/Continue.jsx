@@ -1,9 +1,12 @@
 import React from "react";
 
-export const Continue = () => {
+export const Continue = ({ onClick, button }) => {
   return (
-    <button className="bg-black text-white w-full h-9 flex justify-center items-center rounded-2xl ">
-      Continue 1/3
+    <button
+      onClick={onClick}
+      className="bg-black text-white w-full h-9 flex justify-center items-center rounded-2xl "
+    >
+      <p>{button}</p>
       <img src="./chevron_right.svg" />
     </button>
   );
