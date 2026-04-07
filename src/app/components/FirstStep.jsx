@@ -1,5 +1,3 @@
-"use client";
-import React, { useState } from "react";
 import { Header } from "./Header";
 import { InputField } from "./InputField";
 import { Continue } from "./Continue";

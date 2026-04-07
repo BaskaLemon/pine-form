@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { FirstStep } from "./components/FirstStep";
 import { SecondStep } from "./components/SecondStep";

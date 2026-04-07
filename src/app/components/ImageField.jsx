@@ -2,7 +2,6 @@ export const ImageField = ({
   label,
   value,
   onChange,
-  error,
   required = false,
   onCancel,
 }) => {
