@@ -18,17 +18,7 @@ export default function Home() {
   };
   const [form, setForm] = useState(null);
   const [errors, setErrors] = useState(null);
-  const [touched, setTouched] = useState({
-    firstname: false,
-    lastname: false,
-    username: false,
-    email: false,
-    phone: false,
-    password: false,
-    confirmPass: false,
-    date: false,
-    picture: false,
-  });
+  const [touched, setTouched] = useState(null);
   useEffect(() => {
     if (form !== null) {
       localStorage.setItem("form", JSON.stringify(form));
