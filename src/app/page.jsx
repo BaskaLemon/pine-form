@@ -6,7 +6,7 @@ import { ThirdStep } from "./components/ThirdStep";
 import { FourthSet } from "./components/FourthSet";
 
 export default function Home() {
-  const [currentStep, setCurrentStep] = useState(3);
+  const [currentStep, setCurrentStep] = useState(1);
 
   const nextStep = () => {
     if (currentStep < 4) {
