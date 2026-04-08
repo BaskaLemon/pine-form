@@ -96,6 +96,7 @@ export const SecondStep = ({
           label="Password"
           placeholder="Placeholder"
           touched={touched.password}
+          type={"password"}
         />
         <InputField
           value={form.confirmPass}
@@ -113,6 +114,7 @@ export const SecondStep = ({
           label="Confirm Password"
           placeholder="Placeholder"
           touched={touched.confirmPass}
+          type={"password"}
         />
       </div>
       <div className="flex gap-2.5 w-full">

@@ -6,7 +6,7 @@ import { ThirdStep } from "./components/ThirdStep";
 import { FourthSet } from "./components/FourthSet";
 
 export default function Home() {
-  const [currentStep, setCurrentStep] = useState(1);
+  const [currentStep, setCurrentStep] = useState(3);
 
   const nextStep = () => {
     if (currentStep < 4) {
@@ -103,7 +103,7 @@ export default function Home() {
   if (!touched) return null;
   return (
     <div className="flex flex-col justify-center items-center h-screen w-full">
-      <div className="flex flex-col w-120 h-fit p-8 gap-6 justify-between items-start shadow-2xl">
+      <div className="flex flex-col w-120 h-fit p-8 gap-6 justify-between items-start shadow-2xl rounded-2xl">
         <div className="flex flex-col gap-7 w-full">
           {currentStep === 1 && (
             <FirstStep
